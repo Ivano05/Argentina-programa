@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <link rel="stylesheet" type=""text/css" href="css/estilos.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+      <h1 class="card card-body encabezado">Mi Currículum</h1>
+    </header>
+    <img class="fotocv" rel="foto_principal" src="	https://opem.b-cdn.net/wp-content/uploads/2022/10/curriculum-foto.jpg" alt="Error en carga de imagen, es posible que el navegador no sea compatible." />
+    
+    <nav>
+      <ul class="menu-horizontal">
+          <li>
+            <a href="#">Personal</a>
+            <ul class="menu-vertical">
+                <li><a data-bs-toggle="collapse" href="#descripcionemail" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  E-mail
+                </a></li>   
+
+                <li><a data-bs-toggle="collapse" href="#descripciontel" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Tel de contacto
+                </a></li>
+
+            </ul>
+          </li>
+          <li>
+            <a href="#">Formacion</a>
+            <ul class="menu-vertical">
+                <li><a data-bs-toggle="collapse" href="#descripcionsecundario" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Secundario
+                </a></li>
+                <li><a data-bs-toggle="collapse" href="#descripcionuniversitario" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Universitario
+                </a></li>
+                <li><a data-bs-toggle="collapse" href="#descripcioncursos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Cursos
+                </a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Experiencia</a>
+            <ul class="menu-vertical">
+                <li><a data-bs-toggle="collapse" href="#descripcionventas" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Ventas
+                </a></li>
+                <li><a data-bs-toggle="collapse" href="#descripciongestion" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Gestión
+                </a></li>
+                <li><a data-bs-toggle="collapse" href="#descripciondesarrollo" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Desarrollo
+                </a></li>
+            </ul>
+          </li>
+          
+          
+    </nav>
+    
+    <br><br><br><br>
+
+    <div class="collapse tarjetacontenedor" id="descripcionemail">
+      <div class="card card-body">
+        <div class="emailcaja">
+          <img class="emailpic" src="https://linube.com/blog/wp-content/uploads/correo-electronico.jpg" alt="Error en carga de datos"> 
+          <p class="emailtext">Yo@email.com</p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="collapse tarjetacontenedor" id="descripciontel">
+      <div class="card card-body">
+        <div class="telcaja">
+          <img class="telpic" src="https://e.rpp-noticias.io/normal/2022/02/23/402640_1221693.jpg" alt="Error en carga de datos"> 
+          <p class="teltext"> Tel personal <br> 351 6201212</p>
+        </div> 
+      </div>
+    </div>  
+
+    <div class="collapse tarjetacontenedor" id="descripcionsecundario">
+      <div class="card card-body">
+        <div class="secundariocaja">
+          <img class="secundariopic" src="	https://monserrat.unc.edu.ar/wp-content/blogs.dir/8/files/sites/8/IMG_8846.jpg" alt="Error en carga de datos"> 
+          <p class="secundariotext">Colegio Nacional de Monserrat<br>Bachillerato humanista<br>Inicio 1993<br>Final 1999</p>
+        </div> 
+      </div> 
+    </div>
+
+    <div class="collapse tarjetacontenedor" id="descripcionuniversitario">
+      <div class="card card-body">
+        <div class="universitariocaja">
+          <img class="universitariopic" src="	https://www.unc.edu.ar/sites/default/files/portada_44.jpg" alt="Error en carga de datos"> 
+          <p class="universitariotext">Universidad Nacional de Cordoba<br>Facultad de Psicología<br>Inicio: 2000<br>Final: Cursado inconcluso</p>
+        </div> 
+      </div> 
+    </div>
+
+    <div class="collapse tarjetacontenedor" id="descripcioncursos">
+      <div class="card card-body">
+        <div class="cursoscaja">
+          <img class="cursospic" src="https://cefne.com/wp-content/uploads/2021/06/foto-cefne2-1536x1024.jpg" alt="Error en carga de datos"> 
+          <p class="cursostext">Ciencia de Datos<br>Instituo Superior Politecnico<br>Inicio: 2020<br>Final: 2023<br><br>
+            Primeros pasos del desarrollo frontend<br>Argentina Programa - Ticmas<br>Inicio: 2023<br>Final: en curso
+          </p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="collapse tarjetacontenedor" id="descripcionventas">
+      <div class="card card-body">
+        <div class="ventascaja">
+          <img class="ventaspic" src="	https://retos-operaciones-logistica.eae.es/wp-content/uploads/2020/01/red-de-ventas.jpg" alt="Error en carga de datos"> 
+          <p class="ventastext">Asesor comercial<br>CallCenter<br>Inicio: 2007<br>Final: 2012<br><br>
+            Jefe de ventas<br>Grupo de Superventas<br>Inicio: 2012<br>Final: 2015
+          </p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="collapse tarjetacontenedor" id="descripciongestion">
+      <div class="card card-body">
+        <div class="gestioncaja">
+          <img class="gestionpic" src="https://www.ntxpro.net/wp-content/uploads/2019/03/gestion-1.jpg" alt="Error en carga de datos"> 
+          <p class="gestiontext">Administración y logistica<br>Deposito los Andres<br>Inicio: 2015<br>Final: 2017<br><br>
+            Administración<br>Estudio Rogger<br>Inicio: 2017<br>Final: 2021
+          </p>
+        </div>
+      </div> 
+    </div>
+    
+    <div class="collapse tarjetacontenedor" id="descripciondesarrollo">
+      <div class="card card-body">
+        <div class="desarrollocaja">
+          <img class="desarrollopic" src="https://www.ionos.es/digitalguide/fileadmin/_processed_/7/6/csm_web-development-t_286398826b.jpg" alt="Error en carga de datos"> 
+          <p class="desarrollotext">Cientifico de datos Junior<br>Analisis y Desarrollo SAS<br>Inicio: 2021<br>Final: 2023<br><br>
+          </p>
+        </div>
+      </div> 
+    </div>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    
+
+</body>
+
+</html>
+    
+
+
+  
+  
+
+
+    

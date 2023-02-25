@@ -1,0 +1,225 @@
+
+
+header h1 {
+    margin: 1;
+    padding-top: 20px;
+    font-size: 48px;
+	color: blue;
+    font-weight: 100;
+    text-align: center;
+}
+
+.encabezado{
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;**/
+	max-width: 400px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	
+	background-color: grey !important;
+
+}
+
+body {
+    background-image: linear-gradient(black,white);
+            
+}
+
+
+.fotocv {
+    width: auto;
+    height: 200px;
+    display: block; 
+    margin: auto;
+   	border-radius: 50%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+body{
+	background-image: url(https://www.ofitipo.com/modules/dbblog/views/img/post/tips-estilo-oficina.jpg);
+	background-size: cover;
+}
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.tarjetacontenedor {
+	max-width: 900px;
+	margin: auto;
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	font-weight:700;
+	color: black;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: red;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+	z-index: 10;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+#html{
+	margin: auto;
+	padding: 20px;
+	max-width: 900px;
+	background: white;
+
+}
+
+
+.emailcaja {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	
+  }
+
+.emailpic {
+	max-width: 200px;
+
+ } 
+
+ .telcaja {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	
+  }
+
+.telpic {
+	max-width: 350px;
+
+ } 
+.teltext {
+	margin-left: 20px;
+}
+ 
+.secundariocaja {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   
+ }
+
+.secundariopic {
+   max-width: 250px;
+
+} 
+
+.secundariotext {
+	margin-left: 30px;
+}
+ 
+.universitariocaja {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	
+  }
+ 
+ .universitariopic {
+	max-width: 250px;
+ 
+ } 
+ 
+ .universitariotext {
+	 margin-left: 30px;
+ }
+
+ .cursoscaja {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	
+  }
+ 
+ .cursospic {
+	max-width: 250px;
+ 
+ } 
+ 
+ .cursostext {
+	 margin-left: 30px;
+ }
+  
+ .ventascaja {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+ }
+ 
+ .ventaspic {
+	max-width: 250px;
+ 
+ } 
+ 
+ .ventastext {
+	 margin-left: 30px;
+ }
+
+.gestioncaja {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+ }
+ 
+ .gestionpic {
+	max-width: 250px;
+ 
+ } 
+ 
+ .gestiontext {
+	 margin-left: 30px;
+ }
+
+ .desarrollocaja {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+ }
+ 
+ .desarrollopic {
+	max-width: 250px;
+ 
+ } 
+ 
+ .desarrollotext {
+	 margin-left: 30px;
+ }
