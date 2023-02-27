@@ -104,14 +104,14 @@ nav{
 }
 
 
-.emailcaja {
+.personalcaja {
 	display: flex;
 	align-items: center;
 	justify-content: start;
 	
   }
 
-.emailpic {
+.personalpic {
 	max-width: 200px;
 
  } 
