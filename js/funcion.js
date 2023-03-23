@@ -13,3 +13,6 @@ $('#cmd').click(function () {
     doc.save('Carta de presentacion - Ivan.pdf');
 });
 
+$("a").on("click", function () {
+    $(".tarjetacontenedor").removeClass("show");
+  });

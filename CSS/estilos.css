@@ -16,7 +16,7 @@ header h1 {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	
-	background-color: grey !important;
+	background-color: rgb(182, 156, 100) !important;
 
 }
 
@@ -42,13 +42,17 @@ body {
 	font-family: 'Open Sans';
 }
 body{
-	background-image: url(https://www.ofitipo.com/modules/dbblog/views/img/post/tips-estilo-oficina.jpg);
+	background-image: url(https://thumbs.dreamstime.com/z/vista-superior-del-lugar-de-trabajo-ejecutivo-en-el-fondo-blanco-78610349.jpg);
+	/*https://www.ofitipo.com/modules/dbblog/views/img/post/tips-estilo-oficina.jpg */
 	background-size: cover;
 }
+
+
+
 nav{
 	max-width: 900px;
 	margin: auto;
-	background-color: #333;
+	background-color: #b93838;
 	font-size: 20px;
 	margin-top: 50px;
 }
